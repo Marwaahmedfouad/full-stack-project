@@ -1,6 +1,28 @@
+import { createTable } from '../lib/db';
+
+async function init() {
+  try {
+    await createTable();
+    console.log('Database initialized successfully');
+  } catch (error) {
+    console.error('Failed to initialize database:', error);
+  }
+}
+
+init();
 const sql = require("better-sqlite3");
 const db = sql("meals.db");
 
+// async function init() {
+//   try {
+//     await createTable();
+//     console.log('Database initialized successfully');
+//   } catch (error) {
+//     console.error('Failed to initialize database:', error);
+//   }
+// }
+
+init();
 const dummyMeals = [
    {
       title: 'Juicy Cheese Burger',
