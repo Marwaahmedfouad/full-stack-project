@@ -93,7 +93,7 @@ body {
 
 .alert-dialog-buttons button:first-child {
   /* background: linear-gradient(90deg, #ff4d4d, #ff6b6b); */
-  color: rgb(109, 38, 38);
+  color: white;
 }
 
 .alert-dialog-buttons button:first-child:hover {
