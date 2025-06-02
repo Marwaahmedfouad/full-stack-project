@@ -12,6 +12,7 @@ export default function MealItem({ title, slug, image, summary, creator }) {
 
   async function handleDelete() {
     setShowAlert(true);
+    console.log('test');
   }
 
   async function confirmDelete() {
