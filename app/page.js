@@ -1,4 +1,3 @@
-this part of my project is not responsive can you handle it responsive please 
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
