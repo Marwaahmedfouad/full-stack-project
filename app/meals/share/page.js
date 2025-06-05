@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useFormState } from "react-dom";
 import ImagePicker from "../../../components/meals/image-picker";
 import { shareMeal } from "../../../lib/action";
@@ -21,8 +21,7 @@ export default function ShareMealPage() {
         <form className={classes.form} action={formAction}>
           <div className={classes.row}>
             <p>
-                          {/* <label ht/mlFor="name">Chef's Name</label> */}
-
+              {/* <label ht/mlFor="name">Chef's Name</label> */}
               <label htmlFor="name"> Name</label>
               <input type="text" id="name" name="name" required />
             </p>
