@@ -22,6 +22,7 @@ export default function ShareMealPage() {
           <div className={classes.row}>
             <p>
               {/* <label ht/mlFor="name">Chef's Name</label> */}
+              
               <label htmlFor="name"> Name</label>
               <input type="text" id="name" name="name" required />
             </p>
