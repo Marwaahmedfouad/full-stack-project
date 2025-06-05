@@ -6,14 +6,40 @@
   max-width: 75rem;
 }
 
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
 .slideshow {
   width: 40rem;
   height: 25rem;
 }
 
+@media (max-width: 768px) {
+  .slideshow {
+    width: 100%;
+    height: 20rem;
+  }
+}
+
 .hero {
   color: #ddd6cb;
   font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
 }
 
 .hero h1 {
@@ -32,6 +58,21 @@
   font-size: 1.5rem;
   display: flex;
   gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .cta a {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
 }
 
 .cta a {
